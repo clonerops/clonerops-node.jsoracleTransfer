@@ -3,10 +3,10 @@ const router =  express.Router()
 import { readdirSync } from 'fs';
 
 // imports route
-import customerRouter from './customer'
+import billandingRouter from './billandings'
 
 // use route
-router.use('/customer', customerRouter)
+router.use('/billandings', billandingRouter)
 
 readdirSync('src/api/routes').map(async (route) => {
     const {default: handler} = await import(`./${route}`)
