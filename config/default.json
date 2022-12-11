@@ -1,0 +1,13 @@
+{
+    "name": "Transfer Logestic",
+    "db_connection_string": {
+        "username": "MAPTRNSFC",
+        "password": "Ma$bMo1473",
+        "address": "(DESCRIPTION =  (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = salexdbscan.saipacorp.com)(PORT = 1521)))(CONNECT_DATA = (SERVICE_NAME = salea.saipacorp.com)))"
+    },
+    "morgan_log_format": {
+        "format": ":remote-addr - [:date[iso]] (:method :url :status) :total-time - :user-agent"
+    }
+
+    
+}

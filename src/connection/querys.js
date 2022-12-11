@@ -1,0 +1,1 @@
+export const fetchAllBillandingData = 'select * from maptrnsfc.billlandings'
